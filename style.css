@@ -59,8 +59,6 @@ ul.breadcrumb {
 ul.breadcrumb li {
     display: inline-block;
     font-size: 18px;
-    border-radius: 50%;
-    border-top-right-radius: 20px;
     box-shadow: 3 px 0 1 px #FFFFFF, 5 px 0 #000000;
     padding: 10px 20px;
     border-radius: 50px;
