@@ -46,22 +46,30 @@ h4{font-size: 20px;
     text-align: center;
 
 }
-.form{
+
+.form {
     background-image: url(images/back.jpg);
 }
+
 ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-image: linear-gradient(to top, rgb(102, 205, 170), rgb(255, 255, 255));;
-  }
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, rgb(102, 205, 170), rgb(255, 255, 255));
+ }
 
 ul.breadcrumb li {
-    display: inline;
+    display: inline-block;
     font-size: 18px;
-  }
+    border-radius: 50%;
+    border-top-right-radius: 20px;
+    box-shadow: 3 px 0 1 px #FFFFFF, 5 px 0 #000000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 2px 0 0 0 black;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
   
-ul.breadcrumb li:after {
-    padding: 8px;
-    color: black;
-    content: ")";
-  }
+
+
