@@ -1,0 +1,245 @@
+header {
+    background-color:  white;
+    width: 1114px;
+    height: 56px;
+    margin-top: 24px; 
+    margin-left: 108px;   
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+header ol, header ul{
+    display:  flex;
+    align-items: center;
+    list-style: none;
+}
+header li{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+header ol a{
+    color: black;
+    text-decoration: none;
+}
+header ul li{
+    color: #2D66EE;
+    display: flex;
+    align-items: center;
+}
+header ul img{
+    margin-right: 4px;
+}
+header ul a{
+    text-decoration: none;
+}
+header span{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2D66EE;
+}
+
+body{
+    background-color: #F2F4F7;
+}
+
+footer{
+    background-color: #101828;
+    width: 1224px;
+    height: 222px;
+    margin-left: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div{
+    margin: 25px 0px 20px 0px;
+}
+
+footer span{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+footer p{
+    color: white;
+    font-family: SF Pro Text;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(4, 300px); 
+    grid-template-rows: auto;
+}
+
+.contact-column li{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-column span{
+    color: #98A2B3;  
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-faq{
+    width: 100%;
+    height: 2222px;
+}
+
+.about-company{
+    position: relative;
+    top: 160px;
+    left: 108px;
+
+    width: 600px;
+    height: 220px; 
+}
+
+.company-description h1{
+    color: #101828;  
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.32645100355148315px;
+    text-align: left;
+    width: 550px;
+}
+
+.company-description span{
+    color: #306FF5;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.32645100355148315px;
+    text-align: left;
+}
+
+.company-description p{
+    color: #101828;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.23999999463558197px;
+    text-align: left;
+    width: 550px;
+}
+
+.contact-info{
+    position: relative;
+    top: 30px;
+    
+    width: 676px;
+    height: 186px;  
+    background-color: white;
+    border-radius: 12px; 
+}
+
+.contact-info h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.3799999952316284px;
+    text-align: left;
+    width: 500px;
+    color:#101828;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(3, 250px); 
+    grid-template-rows: auto;
+    position: relative;
+    left: 20px;
+    top: 40px
+}
+.contact-form div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+}
+
+.contact-form input{
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+}
+
+.contact-form input[type='tel'], .contact-form input[type='text']{
+    margin-top: 10px;
+    border-bottom: 1px solid #D0D5DD;
+}
+
+.contact-form input[type='submit']{
+    background-color: #2D66EE;
+    color: white;
+    font-size: 12px;
+    width: 132px;
+    height:58px;
+
+    border-radius: 8px;
+    padding: 11px 24px;
+}
+
+.about-company img{
+    position: relative;
+
+    z-index: -1;
+
+    top: -600px;
+    left: 520px;
+}
+.contacts img{
+    top: -30px;
+    left: 40px;
+    z-index: 1;
+}
+.vector img{
+    top: -30px;
+    left: 80px;
+    z-index: 1;
+}
