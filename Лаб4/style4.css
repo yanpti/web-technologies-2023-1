@@ -243,3 +243,7 @@ footer p{
     left: 80px;
     z-index: 1;
 }
+.footer{
+  display: flex;
+  margin: auto;
+}
