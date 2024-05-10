@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пиццы</title>
-    <link rel="stylesheet" href="">
-    <script type="module" src="script.js"></script>
-</head>
-<body>
-</body>
+<html>
+  <head>
+    <title>Собрать пиццу</title>
+    <link rel="stylesheet" href="pizza.css">
+  </head>
+  <body>
+    <form id="pizza-form">
+        <div class="pizzas">
+            <div class="pizza" id="peperoni">
+                <img class="img" src="img/peperoni.png" alt="">
+                <p>Пеперони</p>
+            </div>
+            <div class="pizza" id="margarita">
+                <img class="img" src="img/margarita.jpg" alt="">
+                <p>Маргарита</p>
+            </div>
+            <div class="pizza" id="bavarian">
+                <img class="img" src="img/bavarian.jpg" alt="">
+                <p>Баварская</p>
+            </div>
+        </div>
+
+        <div class="options">
+            <div class="size">
+                <label for="type">Тип:</label>
+                <select id="type" name="type"></select>
+
+                <label for="size">Размер:</label>
+                <select id="size" name="size"></select>
+                
+            </div>
+            <div class="topings">
+                <p>Добавить начинку</p>
+                <div class="blocks">
+                    <div class="toppings-block" id="cheese">
+                        <img class="img" src="img/bortik.jpg" alt="">
+                        <p>Сырный борт</p>
+                        <h3 id="cheesePrice">от 150</h3>
+                    </div>
+                    <div class="toppings-block" id="mozzarella">
+                        <img class="img" src="img/mozz.jpg" alt="">
+                        <p>Сливочная моцарелла</p>
+                        <h3 id="mozzarellaPrice">от 50</h3>
+                    </div>
+                    <div class="toppings-block" id="chedder">
+                        <img class="img" src="img/ched.jpg" alt="">
+                        <p>Чеддер и пармезан</p>
+                        <h3 id="chedderPrice">от 150</h3>
+                    </div>
+
+                </div>
+
+                <div id="toppings">
+                    <input
+                    type="checkbox"
+                    name="toppings"/>
+                </div>
+
+                <div class="button">
+                    Добавить в корзину за:
+                    <div id="total-price">123</div>
+                    Калорийность:
+                    <div id="total-calories">123</div>
+                </div>
+            </div>
+        </div>    
+    </form>
+    <script src="main.js"></script>
+  </body>
 </html>
