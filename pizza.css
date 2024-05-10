@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: row;
+  }
+  body .pizzas {
+    display: flex;
+    flex-direction: row;
+  }
+  body .pizzas .pizza {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .pizzas .pizza .img {
+    height: 250px;
+    width: 250px;
+  }
+  body .options {
+    margin-top: -350px;
+    margin-left: 800px;
+  }
+  body .options .size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .options .topings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .options .topings .blocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  body .options .topings .blocks .toppings-block {
+    width: 90px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 3px 3px #efeeee;
+    border-radius: 5px;
+    align-items: center;
+  }
+  body .options .topings .blocks .toppings-block p {
+    margin: 0;
+    text-align: center;
+  }
+  body .options .topings .blocks .toppings-block .img {
+    width: 80px;
+    height: 80px;
+  }
+  body .options .topings .button {
+    margin-top: 50px;
+    width: 300px;
+    height: 75px;
+    border-radius: 20px;
+    background-color: orange;
+    text-align: center;
+  }
